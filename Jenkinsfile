@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "adarsh321/jenkins-python-calc-app"
+        IMAGE_NAME = "sarumathin/jenkins_demo"
         IMAGE_TAG = "latest"
     }
 

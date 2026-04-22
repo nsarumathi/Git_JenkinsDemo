@@ -5,7 +5,7 @@
 		    stages {
 		        stage('Example Shared Step') {
 		            steps {
-		                sayHello('Saru from batch 15') // Call the function defined in vars/sayHello.groovy
+		                sayhello('Saru from batch 15') // Call the function defined in vars/sayHello.groovy
 		            }
 		        }
 		    }
